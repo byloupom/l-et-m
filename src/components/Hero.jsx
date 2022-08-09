@@ -11,7 +11,7 @@ const Hero = () => {
         sx={{ mt: 1, fontFamily: "Monospace" }}
 
       >
-        💒 Mariage de Marianne et Louis !
+        💒 Mariage de Marianne et Louis
       </Typography></Box>
       <Grid container spacing={4} mt={1} mb={8}>
         <Grid item xs={12} sx={{ textAlign: "center" }}>

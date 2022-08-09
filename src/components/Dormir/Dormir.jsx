@@ -987,6 +987,12 @@ export default function Dormir() {
                 <Typography fontSize={13}>
                   FR76 4061 8802 9700 0400 0776 919
                 </Typography>
+                <Typography fontWeight={"bold"} mt={2} fontSize={13}>
+                  BIC
+                </Typography>
+                <Typography fontSize={13}>
+                  BOUS FRPP XXX
+                </Typography>
                 <AlertNotifyLouis />
               </AccordionDetails>
             </Accordion>
