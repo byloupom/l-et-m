@@ -180,12 +180,7 @@ export default function Dormir() {
               </TableCell>
               <TableCell>
                 <Chip label="Réglé" icon={<Check />} sx={{ mb: 1 }} />
-                <Chip
-                  label="Payer 31€"
-                  onClick={handleClick}
-                  color="primary"
-                  icon={<Payment />}
-                />
+                <Chip label="Réglé" icon={<Check />} sx={{ mb: 1 }} />
               </TableCell>
             </TableRow>
             <TableRow>
