@@ -52,6 +52,15 @@ function App() {
       >
         📨 Louis et Marianne, 14 rue de Strasbourg, 92600 Asnières-sur-Seine
       </Typography></Box>
+      <Box display="flex" 
+        alignItems="center"
+        justifyContent="center"><Typography 
+        color="text.secondary"
+        sx={{ mt: 1, fontFamily: "Monospace" }}
+
+      >
+        (v1.025)
+      </Typography></Box>
           </Container>
         </ThemeProvider>
       </Wrapper>

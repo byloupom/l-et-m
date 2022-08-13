@@ -251,12 +251,7 @@ export default function Dormir() {
               <TableCell>2 lits simples 1 lit bébé</TableCell>
               <TableCell align="right">62€</TableCell>
               <TableCell>
-                <Chip
-                  label="Payer 62€"
-                  onClick={handleClick}
-                  color="primary"
-                  icon={<Payment />}
-                />
+              <Chip label="Réglé" icon={<Check />} sx={{ mb: 1 }} />
               </TableCell>
             </TableRow>
             <TableRow>
@@ -366,12 +361,7 @@ export default function Dormir() {
               <TableCell>
                 <Chip label="Réglé" icon={<Check />} sx={{ mb: 1 }} />
                 <br />
-                <Chip
-                  label="Payer 27.50€"
-                  onClick={handleClick}
-                  color="primary"
-                  icon={<Payment />}
-                />
+                <Chip label="Réglé" icon={<Check />} sx={{ mb: 1 }} />
               </TableCell>
             </TableRow>
           </TableBody>
